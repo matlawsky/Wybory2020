@@ -6,11 +6,317 @@
              mc:Ignorable="d"
              x:Class="Wybory2020.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+    <StackLayout Margin="0,20,0,0">
+        <Label Text="WYBORY" FontSize="Header"></Label>
+        <Expander>
+            <Expander.Header>
+                <Label Text="BIEDROŃ Robert"
+               FontAttributes="Bold"
+               FontSize="Large" />
+            </Expander.Header>
+            <Grid Padding="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="1" Grid.Column="1"
+               Text="Nr. na liście:"
+               FontAttributes="Bold" />
+                <Label Grid.Row="1" Grid.Column="2"
+               Text="1" />
+                <Label Grid.Row="2" Grid.Column="1"
+               Text="Wiek"
+               FontAttributes="Bold" />
+                <Label Grid.Row="2" Grid.Column="2"
+               Text="44" />
+                <Label Grid.Row="3" Grid.Column="1"
+               Text="Partia"
+               FontAttributes="Bold" />
+                <Label Grid.Row="3" Grid.Column="2"
+               Text="Wiosna Roberta Biedronia" />
+            </Grid>
+        </Expander>
+        <Expander>
+            <Expander.Header>
+                <Label Text="BOSAK Krzysztof"
+               FontAttributes="Bold"
+               FontSize="Large" />
+            </Expander.Header>
+            <Grid Padding="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="1" Grid.Column="1"
+               Text="Nr. na liście:"
+               FontAttributes="Bold" />
+                <Label Grid.Row="1" Grid.Column="2"
+               Text="2" />
+                <Label Grid.Row="2" Grid.Column="1"
+               Text="Wiek"
+               FontAttributes="Bold" />
+                <Label Grid.Row="2" Grid.Column="2"
+               Text="38" />
+                <Label Grid.Row="3" Grid.Column="1"
+               Text="Partia"
+               FontAttributes="Bold" />
+                <Label Grid.Row="3" Grid.Column="2"
+               Text="Konfederacja Wolność i Niepodległość" />
+            </Grid>
+        </Expander>
+        <Expander>
+            <Expander.Header>
+                <Label Text="DUDA Andrzej Sebastian"
+               FontAttributes="Bold"
+               FontSize="Large" />
+            </Expander.Header>
+            <Grid Padding="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="1" Grid.Column="1"
+               Text="Nr. na liście:"
+               FontAttributes="Bold" />
+                <Label Grid.Row="1" Grid.Column="2"
+               Text="3" />
+                <Label Grid.Row="2" Grid.Column="1"
+               Text="Wiek"
+               FontAttributes="Bold" />
+                <Label Grid.Row="2" Grid.Column="2"
+               Text="48" />
+                <Label Grid.Row="3" Grid.Column="1"
+               Text="Partia"
+               FontAttributes="Bold" />
+                <Label Grid.Row="3" Grid.Column="2"
+               Text="nie należy do partii politycznej" />
+            </Grid>
+        </Expander>
+        <Expander>
+            <Expander.Header>
+                <Label Text="HOŁOWNIA Szymon Franciszek"
+               FontAttributes="Bold"
+               FontSize="Large" />
+            </Expander.Header>
+            <Grid Padding="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="1" Grid.Column="1"
+               Text="Nr. na liście:"
+               FontAttributes="Bold" />
+                <Label Grid.Row="1" Grid.Column="2"
+               Text="4" />
+                <Label Grid.Row="2" Grid.Column="1"
+               Text="Wiek"
+               FontAttributes="Bold" />
+                <Label Grid.Row="2" Grid.Column="2"
+               Text="43" />
+                <Label Grid.Row="3" Grid.Column="1"
+               Text="Partia"
+               FontAttributes="Bold" />
+                <Label Grid.Row="3" Grid.Column="2"
+               Text="nie należy do partii politycznej" />
+            </Grid>
+        </Expander>
+        <Expander>
+            <Expander.Header>
+                <Label Text="JAKUBIAK Marek"
+               FontAttributes="Bold"
+               FontSize="Large" />
+            </Expander.Header>
+            <Grid Padding="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="1" Grid.Column="1"
+               Text="Nr. na liście:"
+               FontAttributes="Bold" />
+                <Label Grid.Row="1" Grid.Column="2"
+               Text="5" />
+                <Label Grid.Row="2" Grid.Column="1"
+               Text="Wiek"
+               FontAttributes="Bold" />
+                <Label Grid.Row="2" Grid.Column="2"
+               Text="61" />
+                <Label Grid.Row="3" Grid.Column="1"
+               Text="Partia"
+               FontAttributes="Bold" />
+                <Label Grid.Row="3" Grid.Column="2"
+               Text="Federacja dla Rzeczypospolitej" />
+            </Grid>
+        </Expander>
+        <Expander>
+            <Expander.Header>
+                <Label Text="KOSINIAK-KAMYSZ Władysław Marcin"
+               FontAttributes="Bold"
+               FontSize="Large" />
+            </Expander.Header>
+            <Grid Padding="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="1" Grid.Column="1"
+               Text="Nr. na liście:"
+               FontAttributes="Bold" />
+                <Label Grid.Row="1" Grid.Column="2"
+               Text="6" />
+                <Label Grid.Row="2" Grid.Column="1"
+               Text="Wiek"
+               FontAttributes="Bold" />
+                <Label Grid.Row="2" Grid.Column="2"
+               Text="38" />
+                <Label Grid.Row="3" Grid.Column="1"
+               Text="Partia"
+               FontAttributes="Bold" />
+                <Label Grid.Row="3" Grid.Column="2"
+               Text="Polskie Stronnictwo Ludowe" />
+            </Grid>
+        </Expander>
+        <Expander>
+            <Expander.Header>
+                <Label Text="PIOTROWSKI Mirosław Mariusz"
+               FontAttributes="Bold"
+               FontSize="Large" />
+            </Expander.Header>
+            <Grid Padding="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="1" Grid.Column="1"
+               Text="Nr. na liście:"
+               FontAttributes="Bold" />
+                <Label Grid.Row="1" Grid.Column="2"
+               Text="7" />
+                <Label Grid.Row="2" Grid.Column="1"
+               Text="Wiek"
+               FontAttributes="Bold" />
+                <Label Grid.Row="2" Grid.Column="2"
+               Text="54" />
+                <Label Grid.Row="3" Grid.Column="1"
+               Text="Partia"
+               FontAttributes="Bold" />
+                <Label Grid.Row="3" Grid.Column="2"
+               Text="Ruch Prawdziwa Europa - Europa Christi" />
+            </Grid>
+        </Expander>
+        <Expander>
+            <Expander.Header>
+                <Label Text="TANAJNO Paweł Jan"
+               FontAttributes="Bold"
+               FontSize="Large" />
+            </Expander.Header>
+            <Grid Padding="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="1" Grid.Column="1"
+               Text="Nr. na liście:"
+               FontAttributes="Bold" />
+                <Label Grid.Row="1" Grid.Column="2"
+               Text="8" />
+                <Label Grid.Row="2" Grid.Column="1"
+               Text="Wiek"
+               FontAttributes="Bold" />
+                <Label Grid.Row="2" Grid.Column="2"
+               Text="44" />
+                <Label Grid.Row="3" Grid.Column="1"
+               Text="Partia"
+               FontAttributes="Bold" />
+                <Label Grid.Row="3" Grid.Column="2"
+               Text="nie należy do partii politycznej" />
+            </Grid>
+        </Expander>
+        <Expander>
+            <Expander.Header>
+                <Label Text="TRZASKOWSKI Rafał Kazimierz"
+               FontAttributes="Bold"
+               FontSize="Large" />
+            </Expander.Header>
+            <Grid Padding="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="1" Grid.Column="1"
+               Text="Nr. na liście:"
+               FontAttributes="Bold" />
+                <Label Grid.Row="1" Grid.Column="2"
+               Text="9" />
+                <Label Grid.Row="2" Grid.Column="1"
+               Text="Wiek"
+               FontAttributes="Bold" />
+                <Label Grid.Row="2" Grid.Column="2"
+               Text="48" />
+                <Label Grid.Row="3" Grid.Column="1"
+               Text="Partia"
+               FontAttributes="Bold" />
+                <Label Grid.Row="3" Grid.Column="2"
+               Text="Platforma Obywatelska RP" />
+            </Grid>
+        </Expander>
+        <Expander>
+            <Expander.Header>
+                <Label Text="TRZASKOWSKI Rafał Kazimierz"
+               FontAttributes="Bold"
+               FontSize="Large" />
+            </Expander.Header>
+            <Grid Padding="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="1" Grid.Column="1"
+               Text="Nr. na liście:"
+               FontAttributes="Bold" />
+                <Label Grid.Row="1" Grid.Column="2"
+               Text="10" />
+                <Label Grid.Row="2" Grid.Column="1"
+               Text="Wiek"
+               FontAttributes="Bold" />
+                <Label Grid.Row="2" Grid.Column="2"
+               Text="66" />
+                <Label Grid.Row="3" Grid.Column="1"
+               Text="Partia"
+               FontAttributes="Bold" />
+                <Label Grid.Row="3" Grid.Column="2"
+               Text="Unia Pracy" />
+            </Grid>
+        </Expander>
+        <Expander>
+            <Expander.Header>
+                <Label Text="ŻÓŁTEK Stanisław Józef"
+               FontAttributes="Bold"
+               FontSize="Large" />
+            </Expander.Header>
+            <Grid Padding="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="1" Grid.Column="1"
+               Text="Nr. na liście:"
+               FontAttributes="Bold" />
+                <Label Grid.Row="1" Grid.Column="2"
+               Text="11" />
+                <Label Grid.Row="2" Grid.Column="1"
+               Text="Wiek"
+               FontAttributes="Bold" />
+                <Label Grid.Row="2" Grid.Column="2"
+               Text="64" />
+                <Label Grid.Row="3" Grid.Column="1"
+               Text="Partia"
+               FontAttributes="Bold" />
+                <Label Grid.Row="3" Grid.Column="2"
+               Text="Kongres Nowej Prawicy" />
+            </Grid>
+        </Expander>
     </StackLayout>
-
 </ContentPage>
+
+    
